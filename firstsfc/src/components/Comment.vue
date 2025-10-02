@@ -24,7 +24,7 @@ import { supabase } from '../lib/supabaseClient'
 const Comments = ref([])
 
 async function getComments() {
-  const { data } = await supabase.from('Comments').select()
+  const { data } = await supabase.from('comments').select()
   Comments.value = data
 }
 
