@@ -1,11 +1,12 @@
 <template>
-  <h1>Hello WEBPROG AFD241 World!</h1>
-  <h2>Food</h2>
+  <h1>Food</h1>
   <food-item/>
-  <food-item2/> 
+  <food-item/>
+  <food-item/>
+  <comment-form/>
+  <comment/>
+
+
 </template>
 
 <script></script>
-
-<style>
-</style>
